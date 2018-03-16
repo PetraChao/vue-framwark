@@ -6,6 +6,10 @@
 </template>
 
 <script>
+import mockdata from '@/mock/mockdata.js'
+import axios from 'axios'
+mockdata()
+
 export default {
   name: 'App'
 }
